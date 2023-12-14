@@ -1,13 +1,9 @@
 .nav {
-  background-color: beige;
+  background-color: antiquewhite;
 }
 
 .nav ul {
   display: flex;
   justify-content: space-between;
   list-style: none;
-}
-
-:global(.test) {
-  color: red;
 }
