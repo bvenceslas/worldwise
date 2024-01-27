@@ -23,7 +23,7 @@ function Form() {
   const navigate = useNavigate();
 
   return (
-    <form className={styles.form}>
+    <form onSubmit="" className={styles.form}>
       <div className={styles.row}>
         <label htmlFor="cityName">City name</label>
         <input
